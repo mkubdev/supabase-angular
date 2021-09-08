@@ -1,4 +1,4 @@
-# Supabase Angular
+# Supabase + Angular
 
 ![Supabase + Angular](https://media2.giphy.com/media/AlvIfng4uXcxSumOxO/giphy.gif)
 
