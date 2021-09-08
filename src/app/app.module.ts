@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { CommonModule } from '@angular/common';  // <-- CommonModule missing from example
+// import { CommonModule } from '@angular/common';  // <-- CommonModule missing from quickstart (dont need it in v12)
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
@@ -16,7 +16,7 @@ import { AvatarComponent } from './avatar/avatar.component';
   ],
   imports: [
     BrowserModule,
-    CommonModule
+    // CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
