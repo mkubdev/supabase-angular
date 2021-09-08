@@ -5,12 +5,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AuthComponent } from './auth/auth.component';
 import { AccountComponent } from './account/account.component';
+import { AvatarComponent } from './avatar/avatar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AuthComponent,
-    AccountComponent
+    AccountComponent,
+    AvatarComponent
   ],
   imports: [
     BrowserModule,

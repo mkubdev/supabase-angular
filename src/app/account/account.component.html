@@ -1,3 +1,8 @@
+<app-avatar
+    [avatarUrl]="this.profile?.avatar_url"
+    (upload)="updateProfile(username.value, website.value, $event)">
+</app-avatar>
+
 <div class="form-widget">
   <div>
     <label for="email">Email</label>
