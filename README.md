@@ -1,6 +1,15 @@
-# SupabaseAngular
+# Supabase Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
+![Supabase + Angular](https://media2.giphy.com/media/AlvIfng4uXcxSumOxO/giphy.gif)
+
+Supabase is an new **open source** Firebase alternative.
+It's provides all the backend services you need to build a product. You can use it completely, or just the services you require :
+* Database
+* Auth
+* File Storage
+* Auto-generated APIs
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.
 
 ## Development server
 
