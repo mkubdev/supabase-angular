@@ -6,7 +6,7 @@ import {SupabaseService} from "./../supabase.service";
   template: `
     <div class="row flex flex-center">
       <form class="col-6 form-widget">
-        <h1 class="header">Supabase + Angular</h1>
+        <h1 class="header">⚗ Supabase + Angular</h1>
         <p class="description">Sign in via magic link with your email below</p>
         <div>
           <input

@@ -4,48 +4,7 @@ import {Session} from "@supabase/supabase-js";
 
 @Component({
   selector: 'app-account',
-  template: `
-    <div class="form-widget">
-      <div>
-        <label for="email">Email</label>
-        <input id="email" type="text" [value]="session?.user?.email" disabled/>
-      </div>
-      <div>
-        <label for="username">Name</label>
-        <input
-          #username
-          id="username"
-          type="text"
-          [value]="profile?.username ?? ''"
-        />
-      </div>
-      <div>
-        <label for="website">Website</label>
-        <input
-          #website
-          id="website"
-          type="url"
-          [value]="profile?.website ?? ''"
-        />
-      </div>
-
-      <div>
-        <button
-          class="button block primary"
-          (click)="updateProfile(username.value, website.value)"
-          [disabled]="loading"
-        >
-          {{loading ? 'Loading ...' : 'Update'}}
-        </button>
-      </div>
-
-      <div>
-        <button class="button block" (click)="signOut()">
-          Sign Out
-        </button>
-      </div>
-    </div>
-  `
+  templateUrl: './account.component.html',
 })
 export class AccountComponent implements OnInit {
   loading = false;
@@ -69,6 +28,7 @@ export class AccountComponent implements OnInit {
       }
 
       if (profile) {
+        console.log(profile)
         this.profile = profile;
       }
     } catch (error) {
